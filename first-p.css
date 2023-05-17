@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.sec-1{
+    background-color: rebeccapurple;
+    padding: 50px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
