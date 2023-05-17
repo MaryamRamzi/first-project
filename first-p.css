@@ -2,12 +2,14 @@ body{
     margin: 0;
 }
 .sec-1{
-    background-color: rebeccapurple;
-    padding: 50px;
+    background: linear-gradient(90deg, rgba(0,1,37,1) 0%, rgba(24,9,121,1) 50%, rgba(201,0,255,1) 100%);
+    padding: 24px;
 }
 
 .title{
     font-weight: bold;
+    color: white;
+    font-size: 26px;
 }
 
 .center{
@@ -15,3 +17,19 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.profile{
+    background: linear-gradient(270deg, rgba(0,1,37,1) 0%, rgba(24,9,121,1) 50%, rgba(201,0,255,1) 100%);
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+.profile-section{
+    display: flex;
+    justify-content: end;
+}
+
